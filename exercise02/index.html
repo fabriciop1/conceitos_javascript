@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Verifier</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Age Verifier</h1>
+    </header>
+    <section>
+        <div id="form">
+            <p>Birth year: 
+                <input type="number" name="inputyear" id="inputyear">
+            </p>
+            <p> Sexo: 
+                <input type="radio" name="gender" id="inputM" checked> 
+                <label for="male">Masculino</label>
+                <input type="radio" name="gender" id="inputF">
+                <label for="female">Feminino</label>
+            </p>
+            <input type="button" value="Submit" id = "btnSubmit">
+        </div>
+        <div id="res">
+            Fill the field above to see the result!
+        </div>
+    </section>
+    <footer>
+        <p>&COPY; Fabrício Ferreira</p> 
+    </footer>
+    <script src="logic.js"></script> <!-- embed the Javascript file -->
+</body>
+</html>

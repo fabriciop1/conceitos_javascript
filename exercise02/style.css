@@ -1,0 +1,38 @@
+header {
+    margin-top: 2cm;
+    text-align: center;
+    color: royalblue;
+}
+
+body {
+    background-color:rosybrown;
+    font: normal 14pt Arial;
+}
+
+section {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 4px 4px 10px rgb(43, 41, 41);
+}
+
+
+footer {
+    font: normal 13px Arial;
+    color: royalblue;
+    text-align: center;
+    font-style: italic;
+    padding: 5px;
+}
+
+input[type="button"] {
+    padding: 5px;
+    margin-bottom: 0.5cm;
+    margin-top: 0.2cm;
+}
+
+input[type="number"] {
+    padding: 3px;
+}

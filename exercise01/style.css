@@ -1,0 +1,43 @@
+header {
+    margin-top: 2cm;
+    text-align: center;
+    color: royalblue;
+}
+
+body {
+    background-color:rosybrown;
+    font: normal 15pt Arial;
+}
+
+img#img {
+    border-radius: 300px;
+}
+
+section {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    height: 300px;
+    box-shadow: 4px 4px 10px rgb(43, 41, 41);
+}
+
+div {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+div#areaText {
+    font: normal 13pt Arial;
+    color: black;
+}
+
+footer {
+    font: normal 13px Arial;
+    color: royalblue;
+    text-align: center;
+    font-style: italic;
+    padding: 5px;
+}
